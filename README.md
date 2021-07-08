@@ -1,14 +1,14 @@
 # Lua-Tutorial
-### Xuất
+### Xuất:
 ```lua
   io.write("Hello world")
   print("Hello world")
 ```
-### Nhập
+### Nhập:
 ```lua
   io.read()
 ```
-### Điều kiện
+### Điều kiện:
 ```lua
   age = 20
   if age == 20 then
@@ -19,6 +19,18 @@
     print("Ban chua du tuoi")
   end
 ```
+### Vòng lặp:
+```lua
+- Vòng lặp for
+  for i=1,10 do
+    print(i)
+  end
+- Vòng lặp while
+  i = 1
+  while i <= 10 do
+    print(i)
+  end
+```  
 ### Hàm:
 ```lua
   function Sum(num1,num2)
