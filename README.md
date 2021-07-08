@@ -21,11 +21,11 @@
 ```
 ### Vòng lặp:
 ```lua
-- Vòng lặp for
+--Vòng lặp for
   for i=1,10 do
     print(i)
   end
-- Vòng lặp while
+--Vòng lặp while
   i = 1
   while i <= 10 do
     print(i)
