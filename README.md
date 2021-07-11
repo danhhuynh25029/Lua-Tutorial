@@ -39,7 +39,7 @@
 ```
 ### Đối tượng:
 ```lua
-  Animal = {}
+  Animal = {name,age}
   function Aniaml:new(name,age)
     self.name = name
     self.age = age
