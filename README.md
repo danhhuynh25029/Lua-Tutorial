@@ -37,3 +37,12 @@
     return num1+num2
   end
 ```
+### Đối tượng:
+```lua
+  Animal = {}
+  function Aniaml:new(name,age)
+    self.name = name
+    self.age = age
+    r
+  end
+```
