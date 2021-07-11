@@ -43,6 +43,8 @@
   function Aniaml:new(name,age)
     self.name = name
     self.age = age
-    r
+    return self
   end
+  dog = Animal:new("Milo",1)
+  print(dog.name)
 ```
